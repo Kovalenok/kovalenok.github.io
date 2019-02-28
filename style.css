@@ -1,0 +1,40 @@
+ .big { 
+ background: linear-gradient(to top, indigo, yellow);
+ width: 1400px;
+height: auto;
+border: solid 1px red;
+ }
+.first, .second {
+border: solid 1px red;
+display: inline-block;
+margin: 0 0 0 50px;
+   }
+   .third {
+	   font-size: large;
+	   background: white;
+	   border: solid 1px red;
+	   height: 40px;
+	   text-align:  center;
+   }
+   .four {
+	   font-size: large;
+	   border: solid 1px red;
+	   height: 60px;
+	   text-align:  center;
+   }
+   .five {
+	   font-size: 26;
+	   border: solid 1px red;
+	   text-align:  center;
+	   color: Lime;
+   }
+  .six {
+	   font-size: large;
+	   border: solid 2px blue;
+	   height: 100px;
+	   text-align:  right;
+	   background: white;
+   }
+   .p1 {
+	   text-align:  center;
+   }
