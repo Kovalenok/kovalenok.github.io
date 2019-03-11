@@ -1,0 +1,74 @@
+ body {
+background: linear-gradient(45deg, Violet, aqua);
+ }
+ #hover { 
+  width: auto;
+height: auto;
+ margin-left: auto;
+ margin-right: auto;
+ }
+   H1 { 
+    font-family: Arial;
+    font-size: 50px; 
+    font-weight: bolder; 
+	font-style: oblique;
+	text-decoration: blink;
+	text-align:  center;
+	color: Maroon; 
+   }
+.name, .logo {
+display: inline-block;
+height: 150px;
+ width: 800px;
+ vertical-align: center;
+   }
+   .name { 
+  float: center;
+    }
+   .logo { 
+     float: right;
+	 width: 200px;
+	 transform: 20s all;
+	 padding: 10px; 
+	 }
+	 button {
+    background: linear-gradient(45deg, Violet, aqua);
+    font-size: 20px; /* Размер текста */
+    padding: 5px 20px; /* Поля вокруг текста */
+	width: 200px;
+	height: 80px;
+	margin-right: 20px;
+   }
+     hr {
+    border: none; /* Убираем границу */
+    background-color: blue; /* Цвет линии */
+    height: 4px; /* Толщина линии */
+	width: 80%;
+   }	   
+   .block, .block1 {
+	   font-size: large;
+	   background: white;
+	   border: solid 1px blue;
+	   text-align:  center;
+		margin: 7px 0 7px 7px;
+	   display: inline-block;
+	   height: auto;
+   }
+   .mal {
+	   width: 150px; 
+	   height: 150px;
+	   float: left;
+	   margin: 10px;
+	    display: flex;
+   }
+   .block {
+	   width: 58%;
+	    float: left;
+	      }
+   .block1 {
+	   width: 40%;
+	   float: right;
+	   text-align:  center;
+	     }
+  
+   
