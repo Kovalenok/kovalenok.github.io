@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course converter</title>
+	<script src="converter.js" type="text/javascript"></script>
+</head>
+<body onload="load()">
+	<div class="content">
+		<div class="exchange">
+			<div>
+				<label for="amount">Enter</label>
+				<input type="text" id="amount" />
+				<span style="font-weight:bold;">UAH</span>
+			</div>			
+			<div>
+				<label for="currencyCode">Convert To:</label>
+				<select id="currencyCode">
+					<option value="USD">USD</option>
+					<option value="EUR">EUR</option>
+					<option value="XAU">Золото</option>
+				</select>
+			</div>
+			<div>
+				<label for="convertedAmount">Result</label>
+				<input type="text" id="convertedAmount" readonly />
+			</div>
+			<button onclick="get()">Calculate</button>
+		</div>
+	</div>
+</body>
+</html>
